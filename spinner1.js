@@ -36,3 +36,7 @@ setTimeout(() => {
   // Need to escape the backslash since it's a special character.
   process.stdout.write('\r|   '); 
 }, 1700);
+setTimeout(() => {
+  // Need to escape the backslash since it's a special character.
+  console.log("") ;
+}, 1900);
